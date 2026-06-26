@@ -1,0 +1,58 @@
+/*
+class Node {
+public:
+    int data;
+    Node* next;
+    Node* bottom;
+
+    Node(int x) {
+        data = x;
+        next = nullptr;
+        bottom = nullptr;
+    }
+}; */
+
+class Solution {
+  public:
+  Node* merge(Node *head1,Node* head2){
+      Node *head=new Node(0);
+      Node * tail=head;
+      while(head1&&head2){
+          if(head1->data<=head2->data){
+              tail->bottom=head1;
+              tail=tail->bottom;
+              head1=head1->bottom;
+              tail->bottom=NULL;
+          } else{
+              tail->bottom=head2;
+              tail=tail->bottom;
+              head2=head2->bottom;
+              tail->bottom=NULL;
+          }
+      }
+      if(head1){
+           tail->bottom=head1;
+      }
+      else{
+          tail->bottom=head2;
+      }
+      tail=head;
+      head=head->bottom;
+      delete tail;
+      return head;
+  }
+    Node *flatten(Node *root) {
+        // code here
+        // loop condition also handleszero node case too
+        while(root->next){
+            Node *head1=root;
+            Node*head2=root->next;
+            Node* head3=root->next->next;
+            head1->next=NULL;
+            head2->next=NULL;
+            root=merge(head1,head2);
+            root->next=head3;
+        }
+        return root;
+    }
+};
