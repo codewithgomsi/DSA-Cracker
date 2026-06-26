@@ -8,9 +8,14 @@
 ## Linked List
 |  |
 | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0025-reverse-nodes-in-k-group) |
 | [0142-linked-list-cycle-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0142-linked-list-cycle-ii) |
 ## Two Pointers
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0142-linked-list-cycle-ii) |
+## Recursion
+|  |
+| ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0025-reverse-nodes-in-k-group) |
 <!---LeetCode Topics End-->
