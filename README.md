@@ -17,6 +17,7 @@
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0142-linked-list-cycle-ii) |
 | [0344-reverse-string](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0344-reverse-string) |
+| [0844-backspace-string-compare](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0844-backspace-string-compare) |
 ## Recursion
 |  |
 | ------- |
@@ -32,15 +33,21 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0020-valid-parentheses) |
 | [0445-add-two-numbers-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0445-add-two-numbers-ii) |
+| [0844-backspace-string-compare](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0844-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## String
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0020-valid-parentheses) |
 | [0344-reverse-string](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0344-reverse-string) |
+| [0844-backspace-string-compare](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0844-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Greedy
 |  |
 | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+## Simulation
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0844-backspace-string-compare) |
 <!---LeetCode Topics End-->
