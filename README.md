@@ -32,6 +32,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0020-valid-parentheses) |
+| [0084-largest-rectangle-in-histogram](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0084-largest-rectangle-in-histogram) |
 | [0445-add-two-numbers-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0445-add-two-numbers-ii) |
 | [0844-backspace-string-compare](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0844-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -50,4 +51,12 @@
 |  |
 | ------- |
 | [0844-backspace-string-compare](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0844-backspace-string-compare) |
+## Array
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0084-largest-rectangle-in-histogram) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
