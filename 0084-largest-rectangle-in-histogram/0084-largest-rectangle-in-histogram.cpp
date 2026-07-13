@@ -1,17 +1,20 @@
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
-        
-        /*
         int ans=0;
+        int n=heights.size();
         stack<int>st;
-        for(int i=0;i<nsr.size();i++){
+        for(int i=0;i<heights.size();i++){
              // we have found the next smaller
              // i is nsr
             while(!st.empty()&&heights[st.top()]>heights[i]){
                 int height_index=st.top();
                 st.pop();
-                ans=max(ans,heights[height_index]*(i-st.top()-1));
+                if(!st.empty()){
+                ans=max(ans,heights[height_index]*(i-st.top()-1));     }
+                else{
+                    ans = max(ans, heights[height_index] * i);
+                }
             }
             st.push(i);
         }
@@ -21,11 +24,14 @@ public:
            int height_index=st.top();
            st.pop();
            if(!st.empty()){
-                ans=max(ans,heights[height_index]*(heights.size()-st.top()-1));   }
-                else{
-                ans=max(ans,heights[height_index]*heights.size());
+                ans=max(ans, heights[height_index]*(n-st.top()-1));   
                 }
-        }  */
+                else{
+                ans=max(ans,heights[height_index]*n);
+                }
+        }  
+        return ans;
+        /*
         // first approach
         // NEXT SMALLEST RIGHT
         // NEXT SMALLEST LEFT
@@ -62,7 +68,7 @@ public:
        for(int i=0;i<heights.size();i++){
         ans=max(ans,(heights[i]*(nsr[i]-nsl[i]-1)));
        }
-       return ans;
+       return ans;*/
     }
    
 
