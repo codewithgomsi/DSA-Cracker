@@ -28,8 +28,8 @@ class Solution {
          int row = 0;
         int col = 0;
         for(int j=0;j<mat.size();j++){
-            row += mat[celeb_psbl][j];
-            col += mat[j][celeb_psbl];
+            row += mat[celeb_psbl][j];  // check knows nobody
+            col += mat[j][celeb_psbl];   // check everyone knowshim
         }
         return row==1&&col==mat.size()?celeb_psbl:-1;
     }
