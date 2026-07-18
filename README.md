@@ -12,6 +12,7 @@
 | [0025-reverse-nodes-in-k-group](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0025-reverse-nodes-in-k-group) |
 | [0142-linked-list-cycle-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0142-linked-list-cycle-ii) |
 | [0445-add-two-numbers-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0445-add-two-numbers-ii) |
+| [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
 ## Two Pointers
 |  |
 | ------- |
@@ -57,6 +58,7 @@
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0085-maximal-rectangle) |
+| [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -70,4 +72,12 @@
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0085-maximal-rectangle) |
+## Design
+|  |
+| ------- |
+| [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
+## Queue
+|  |
+| ------- |
+| [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
 <!---LeetCode Topics End-->
