@@ -53,12 +53,14 @@
 |  |
 | ------- |
 | [0844-backspace-string-compare](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0844-backspace-string-compare) |
+| [2073-time-needed-to-buy-tickets](https://github.com/codewithgomsi/DSA-Cracker/tree/master/2073-time-needed-to-buy-tickets) |
 ## Array
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0085-maximal-rectangle) |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
+| [2073-time-needed-to-buy-tickets](https://github.com/codewithgomsi/DSA-Cracker/tree/master/2073-time-needed-to-buy-tickets) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -80,4 +82,5 @@
 |  |
 | ------- |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
+| [2073-time-needed-to-buy-tickets](https://github.com/codewithgomsi/DSA-Cracker/tree/master/2073-time-needed-to-buy-tickets) |
 <!---LeetCode Topics End-->
