@@ -36,6 +36,7 @@
 | [0020-valid-parentheses](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0085-maximal-rectangle) |
+| [0144-binary-tree-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0144-binary-tree-preorder-traversal) |
 | [0445-add-two-numbers-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0445-add-two-numbers-ii) |
 | [0844-backspace-string-compare](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0844-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -87,4 +88,16 @@
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
 | [0641-design-circular-deque](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0641-design-circular-deque) |
 | [2073-time-needed-to-buy-tickets](https://github.com/codewithgomsi/DSA-Cracker/tree/master/2073-time-needed-to-buy-tickets) |
+## Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0144-binary-tree-preorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0144-binary-tree-preorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
