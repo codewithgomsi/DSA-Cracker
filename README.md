@@ -13,6 +13,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0142-linked-list-cycle-ii) |
 | [0445-add-two-numbers-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0445-add-two-numbers-ii) |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
+| [0641-design-circular-deque](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0641-design-circular-deque) |
 ## Two Pointers
 |  |
 | ------- |
@@ -60,6 +61,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0085-maximal-rectangle) |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
+| [0641-design-circular-deque](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0641-design-circular-deque) |
 | [2073-time-needed-to-buy-tickets](https://github.com/codewithgomsi/DSA-Cracker/tree/master/2073-time-needed-to-buy-tickets) |
 ## Monotonic Stack
 |  |
@@ -78,9 +80,11 @@
 |  |
 | ------- |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
+| [0641-design-circular-deque](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0641-design-circular-deque) |
 ## Queue
 |  |
 | ------- |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
+| [0641-design-circular-deque](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0641-design-circular-deque) |
 | [2073-time-needed-to-buy-tickets](https://github.com/codewithgomsi/DSA-Cracker/tree/master/2073-time-needed-to-buy-tickets) |
 <!---LeetCode Topics End-->
