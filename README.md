@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0142-linked-list-cycle-ii) |
+| [0169-majority-element](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0169-majority-element) |
 ## Linked List
 |  |
 | ------- |
@@ -63,6 +64,7 @@
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0085-maximal-rectangle) |
+| [0169-majority-element](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0169-majority-element) |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
 | [0641-design-circular-deque](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0641-design-circular-deque) |
 | [2073-time-needed-to-buy-tickets](https://github.com/codewithgomsi/DSA-Cracker/tree/master/2073-time-needed-to-buy-tickets) |
@@ -108,4 +110,20 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0145-binary-tree-postorder-traversal) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
