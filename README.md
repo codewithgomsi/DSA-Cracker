@@ -12,6 +12,7 @@
 | [0002-add-two-numbers](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0025-reverse-nodes-in-k-group) |
 | [0142-linked-list-cycle-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0142-linked-list-cycle-ii) |
+| [0206-reverse-linked-list](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0206-reverse-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0445-add-two-numbers-ii) |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
 | [0641-design-circular-deque](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0641-design-circular-deque) |
@@ -26,6 +27,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0025-reverse-nodes-in-k-group) |
+| [0206-reverse-linked-list](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0206-reverse-linked-list) |
 ## Math
 |  |
 | ------- |
