@@ -15,40 +15,38 @@ class Node {
 class Solution {
   public:
     vector<int> inOrder(Node* root) {
-        // ✅ Iterative inorder traversal using stack + visited flag
-        // Inorder = Left → Root → Right
+        // -------------------- Algorithm --------------------
+        // Morris Traversal (Inorder without stack/recursion):
+        // 1. If left child is NULL → visit node, move right.
+        // 2. Else, find inorder predecessor (rightmost node in left subtree).
+        //    - If predecessor->right == NULL → make thread to root, move left.
+        //    - If predecessor->right == root → remove thread, visit node, move right.
+        // 3. Repeat until root becomes NULL.
+        // Key: Uses temporary links (threads) to traverse tree in O(1) space.
 
-        stack<Node *> st;          // stack to hold nodes
-        stack<bool> visited;       // stack to track if node has been visited
-        vector<int> ans;           // result vector
-
-        st.push(root);
-        visited.push(0);           // 0 = not visited, 1 = visited
-
-        bool flag;
-        while(!st.empty()){
-            Node * temp = st.top();
-            st.pop();
-            flag = visited.top();
-            visited.pop();
-
-            if(!flag){
-                // Push right child first (processed later)
-                if(temp->right){
-                    st.push(temp->right);
-                    visited.push(0);
-                }
-                // Push current node again but mark as visited
-                st.push(temp);
-                visited.push(1);
-                // Push left child (processed next)
-                if(temp->left){
-                    st.push(temp->left);
-                    visited.push(0);
-                }
+        vector<int> ans;
+        while(root){
+            if(!root->left){
+                // Case 1: No left child → visit node, move right
+                ans.push_back(root->data);
+                root = root->right;
             } else {
-                // When visited again, add to answer
-                ans.push_back(temp->data);
+                // Case 2: Left child exists → find inorder predecessor
+                Node *curr = root->left;
+                while(curr->right && curr->right != root){
+                    curr = curr->right;
+                }
+
+                if(curr->right == NULL){
+                    // First time visiting predecessor → make thread
+                    curr->right = root;
+                    root = root->left;
+                } else {
+                    // Second time → thread exists, remove it
+                    curr->right = NULL;
+                    ans.push_back(root->data); // visit node
+                    root = root->right;
+                }
             }
         }
         return ans;
@@ -56,47 +54,48 @@ class Solution {
 };
 
 /*
-📝 NOTES:
-- This is an iterative inorder traversal (Left → Root → Right).
-- Uses two stacks: one for nodes, one for visited flags.
-- Avoids recursion (safe for very deep trees).
-
-🔄 DRY RUN EXAMPLE:
+-------------------- Dry Run Example --------------------
 Tree:
-       1
-      / \
-     2   3
-    / \
-   4   5
+        1
+       / \
+      2   3
+     /
+    4
 
-Steps:
-1. Push root(1, not visited).
-2. Pop 1 → push right(3), push 1(visited), push left(2).
-3. Pop 2 → push right(5), push 2(visited), push left(4).
-4. Pop 4 → push 4(visited).
-5. Pop 4(visited) → ans=[4].
-6. Pop 2(visited) → ans=[4,2].
-7. Pop 5 → push 5(visited).
-8. Pop 5(visited) → ans=[4,2,5].
-9. Pop 1(visited) → ans=[4,2,5,1].
-10. Pop 3 → push 3(visited).
-11. Pop 3(visited) → ans=[4,2,5,1,3].
+Step-by-step:
+- root=1, has left → predecessor=2 → rightmost=4.
+- 4->right == NULL → make thread to 1, move root=2.
+- root=2, has left → predecessor=4.
+- 4->right == 1 (thread exists) → remove thread, visit 2, move root=2->right=NULL.
+- root=NULL → back to 1 via thread.
+- Visit 1, move root=3.
+- root=3, no left → visit 3, move root=NULL.
+Answer = [4,2,1,3] → correct inorder.
 
-✅ Output: [4,2,5,1,3] → correct inorder traversal.
+-------------------- Time Complexity --------------------
+O(N) → each edge visited at most twice (create + remove thread).
+-------------------- Space Complexity --------------------
+O(1) → no stack or recursion, only temporary threads.
 
-⏱️ TIME COMPLEXITY:
-- O(n) → each node pushed/popped at most twice.
+-------------------- Tips & Notes --------------------
+- Morris Traversal is the only way to do inorder in O(1) space.
+- Pattern: "Threading" → temporarily connect predecessor’s right to current node.
+- Pitfall: forgetting to remove thread → infinite loop.
+- Exam strategy: Always mention "O(N) time, O(1) space, modifies tree temporarily".
+- Good to compare with recursive (O(N) space) and iterative stack (O(N) space).
 
-💾 SPACE COMPLEXITY:
-- O(n) → stack can hold all nodes in worst case (skewed tree).
+-------------------- Pattern & Observations --------------------
+- Observe: Inorder traversal = Left → Root → Right.
+- Morris achieves this by:
+  * Going left until NULL.
+  * Using predecessor’s right pointer as a "return path".
+- General DSA skill: When recursion/stack is not allowed, think of "threading" or "temporary links".
+- Similar pattern: Preorder Morris traversal also possible by visiting root before threading.
 
-💡 TIPS:
-- Inorder = Left → Root → Right.
-- This method avoids recursion (good for large trees).
-- Alternative approach: single stack + pointer (common interview variant).
-
-✅ ADVICE FOR REVISION:
-- First recall traversal order (Preorder, Inorder, Postorder).
-- Then remember stack simulates recursion.
-- Practice dry runs on small trees to cement logic.
+-------------------- Key Takeaways --------------------
+- Morris Traversal = Inorder traversal with O(1) space.
+- Uses temporary threads to predecessor.
+- Each edge is used twice (create + remove).
+- Complexity O(N), space O(1).
+- Important advanced technique for interviews and exams.
 */
