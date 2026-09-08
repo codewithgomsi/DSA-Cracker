@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/sum-of-k-smallest-elements-in-bst3029/1?sortBy=submissions&category%255B%255D=Binary%252520Search%252520Tree&page=1&difficulty%255B%255D=0">Sum of k smallest in BST</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p>&nbsp;<span style="font-size: 18px;">Given a Binary Search Tree, find sum of k smallest nodes in it. You may assume that k is always smaller than or equal to size of the tree.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>k = 3<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/927552/Web/Other/blobid1_1777543285.png" width="253" height="285"> 
+<strong>Output:</strong> 22
+<strong>Explanation: </strong>Sum of 3 smallest elements are: 4 + 8 + 10 = 22</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>k = 2<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/927552/Web/Other/blobid4_1777543426.png" width="250" height="275"> &nbsp;<br><strong>Output:</strong> 9
+<strong>Explanation: </strong>The sum of two smallest elements is 4+5=9</span></pre>
+<div><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ Number of nodes in BST ≤ 100<br>1 ≤ K ≤ n</span></div></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Binary Search Tree</code>&nbsp;
