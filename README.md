@@ -45,6 +45,7 @@
 | [0445-add-two-numbers-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0445-add-two-numbers-ii) |
 | [0844-backspace-string-compare](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0844-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## String
 |  |
 | ------- |
@@ -69,12 +70,14 @@
 | [0169-majority-element](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0169-majority-element) |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
 | [0641-design-circular-deque](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0641-design-circular-deque) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [2073-time-needed-to-buy-tickets](https://github.com/codewithgomsi/DSA-Cracker/tree/master/2073-time-needed-to-buy-tickets) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0085-maximal-rectangle) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -104,6 +107,7 @@
 | [0226-invert-binary-tree](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0226-invert-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -123,6 +127,7 @@
 | [0226-invert-binary-tree](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0226-invert-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -164,4 +169,5 @@
 | ------- |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
