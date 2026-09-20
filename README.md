@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0169-majority-element) |
 ## Linked List
 |  |
@@ -12,6 +13,7 @@
 | [0002-add-two-numbers](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0025-reverse-nodes-in-k-group) |
 | [0142-linked-list-cycle-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0206-reverse-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0445-add-two-numbers-ii) |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
@@ -89,6 +91,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0146-lru-cache) |
 | [0622-design-circular-queue](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0622-design-circular-queue) |
 | [0641-design-circular-deque](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0641-design-circular-deque) |
 ## Queue
@@ -170,4 +173,8 @@
 | [0530-minimum-absolute-difference-in-bst](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/codewithgomsi/DSA-Cracker/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/codewithgomsi/DSA-Cracker/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
